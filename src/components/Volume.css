@@ -1,0 +1,62 @@
+.slider {
+    border:10px solid #252525;
+    height: 32px;
+    width: 32px;
+    margin-top:1rem;
+    background: #252525;
+}
+
+.slider i {
+    color: rgba(211, 108, 193, 0.9);
+    margin-right: 25px;
+}
+.slider i:hover {
+    cursor: pointer;
+    color: rgba(255,255,255, 0.9);
+}
+.slider-open {
+    height: 32px;
+    background: #252525;
+    border-radius: 0;
+    border-right:10px solid #252525;
+    border-left:10px solid #252525;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+}
+.rc-slider {
+    border-radius: 0;
+    width: 320px;
+}
+.rc-slider-step {
+    height: 8px;
+}
+.rc-slider-handle {
+    height: 18px;
+    width: 18px;
+    border-radius: 0;
+    border:0;
+    background: #5d5d5d;
+}
+.rc-slider-handle:hover, .rc-slider-handle:active {
+    background: #ccc;
+    box-shadow: 0 0 0 2px rgba(211, 108, 193, 0.9);
+}
+.rc-slider-track {
+    background: rgba(211, 108, 193, 0.9);
+    border-radius: 0;
+    height: 8px;
+}
+.rc-slider-rail {
+    position: absolute;
+    width: 100%;
+    background-color: #a2a2a2;
+    height: 8px;
+    border-radius: 0;
+}
+
+.fixmywidthlol {
+    width:32px;
+}
